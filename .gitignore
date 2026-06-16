@@ -1,0 +1,14 @@
+# build artifacts
+build/Backrooms
+.objcache/
+*.o
+*.obj
+build_err.txt
+run_log.txt
+
+# temp / test
+*.ppm
+*.tmp
+
+# keep the prebuilt exe so users can run it directly
+!build/Backrooms.exe
